@@ -1,0 +1,41 @@
+{
+  "name": "joni.cool",
+  "version": "0.0.1",
+  "description": "the website joni.cool",
+  "main": "public/index.html",
+  "scripts": {
+    "test": "jest",
+    "build": "cross-env NODE_ENV=production webpack --config ./config/webpack.config.js",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --config ./config/webpack.config.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonasSeegers/joni.cool.git"
+  },
+  "keywords": [
+    "joni.cool",
+    "joni",
+    "cool",
+    "jonas",
+    "seegers",
+    "freelance",
+    "developer"
+  ],
+  "author": "Jonas Seegers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JonasSeegers/joni.cool/issues"
+  },
+  "homepage": "https://github.com/JonasSeegers/joni.cool#readme",
+  "devDependencies": {
+    "@types/react": "^16.8.14",
+    "cross-env": "^5.2.0",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.1",
+    "webpack-dev-server": "^3.3.1"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
