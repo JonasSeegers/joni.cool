@@ -2,9 +2,12 @@
   "compilerOptions": {
     "noImplicitAny": true,
     "strictNullChecks": true,
-    "esModuleInterop": true,
-    "jsx": "react"
+    "jsx": "react",
+    "sourceMap": true,
+    "outDir": "./dist/",
+    "lib": ["es2015", "dom"],
+    "target": "es3",
+    "esModuleInterop": true
   },
-  "include": ["src/**/*"],
-  "exclude": ["node_modules", "**/*.spec.ts"]
+  "include": ["./src/**/*"]
 }
