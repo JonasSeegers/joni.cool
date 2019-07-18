@@ -1,17 +1,19 @@
 import React from 'react';
 import styled from '@emotion/styled';
 import { Fonts } from '../../constants/style';
+import { Styleable } from '../../utility/types';
 
-export const Heading: React.SFC = props => {
-  const { children } = props;
+interface HeadingProps extends Styleable {}
 
-  return <StyledHeading>{children}</StyledHeading>;
-};
+export const Heading: React.SFC<HeadingProps> = props => (
+  <StyledHeading {...props} />
+);
 
-const StyledHeading = styled('h1')({
+const StyledHeading = styled('h1')(({ emotionStyles }: HeadingProps) => ({
   fontFamily: Fonts.fontFamily,
   fontSize: Fonts.headingFontSize,
   fontWeight: Fonts.fontWeightBold,
   marginBottom: '40px',
-  lineHeight: '50px'
-});
+  lineHeight: '50px',
+  ...emotionStyles
+}));

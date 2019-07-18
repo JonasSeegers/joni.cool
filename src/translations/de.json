@@ -1,0 +1,16 @@
+{
+  "navigation": {
+    "projects": "Projekte",
+    "cv": "Werdegang",
+    "contact": "Kontakt",
+    "imprint": "Impressum"
+  },
+  "general": {
+    "contactCta": "Kontakt aufnehmen",
+    "projectsCta": "Projekte ansehen"
+  },
+  "heroTeaser": {
+    "heading-1": "Freiberuflicher Full Stack Entwickler",
+    "heading-2": "TypeScript, React, Node.js"
+  }
+}
