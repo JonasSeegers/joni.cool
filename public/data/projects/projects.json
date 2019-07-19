@@ -1,0 +1,48 @@
+[
+  {
+    "title": "About You",
+    "logoFilename": "ay-logo.png",
+    "description": "lol lol about you lol jedes teil dein style",
+    "keywords": ["Typescript", "Lol", "Mobile App", "Lmao"],
+    "ctas": [
+      { "i18nKey": "projects.visitProject", "url": "http://www.aboutyou.de" }
+    ]
+  },
+  {
+    "title": "About You",
+    "logoFilename": "ay-logo.png",
+    "description": "lol lol about you lol jedes teil dein style",
+    "keywords": ["Typescript", "Lol", "Mobile App", "Lmao"],
+    "ctas": [
+      { "i18nKey": "projects.visitProject", "url": "http://www.aboutyou.de" },
+      { "i18nKey": "projects.visitProject", "url": "http://www.aboutyou.de" }
+    ]
+  },
+  {
+    "title": "About You",
+    "logoFilename": "ay-logo.png",
+    "description": "lol lol about you lol jedes teil dein style",
+    "keywords": ["Typescript", "Lol", "Mobile App", "Lmao"],
+    "ctas": [
+      { "i18nKey": "projects.visitProject", "url": "http://www.aboutyou.de" }
+    ]
+  },
+  {
+    "title": "About You",
+    "logoFilename": "ay-logo.png",
+    "description": "lol lol about you lol jedes teil dein style",
+    "keywords": ["Typescript", "Lol", "Mobile App", "Lmao"],
+    "ctas": [
+      { "i18nKey": "projects.visitProject", "url": "http://www.aboutyou.de" }
+    ]
+  },
+  {
+    "title": "About You",
+    "logoFilename": "ay-logo.png",
+    "description": "lol lol about you lol jedes teil dein style",
+    "keywords": ["Typescript", "Lol", "Mobile App", "Lmao"],
+    "ctas": [
+      { "i18nKey": "projects.visitProject", "url": "http://www.aboutyou.de" }
+    ]
+  }
+]

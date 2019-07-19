@@ -12,5 +12,8 @@
   "heroTeaser": {
     "heading-1": "Freiberuflicher Full Stack Entwickler",
     "heading-2": "TypeScript, React, Node.js"
+  },
+  "projects": {
+    "visitProject": "Projekt besuchen"
   }
 }

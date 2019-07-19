@@ -1,27 +1,28 @@
 import React from 'react';
-import { Button } from './atoms/button/button';
-import { Heading } from './atoms/heading/heading';
 import styled from '@emotion/styled-base';
 import { Header } from './organisms/header/header';
-import { HeroTeaser } from './atoms/heroTeaser/heroTeaser';
-import i18n from './utility/i18n';
+import { HeroTeaser } from './organisms/heroTeaser/heroTeaser';
+import { CategoryHeader } from './molecules/categoryHeader/categoryHeader';
+import i18next from 'i18next';
+import { Projects } from './organisms/projects/projects';
 
 export const App: React.SFC = () => (
   <AppContainer>
     <Header />
-    <HeroTeaser emotionStyles={{ backgroundImage: "url('assets/hero-1.png')" }}>
-      <Heading style={{ color: 'white' }}>
-        Freiberuflicher Full Stack Entwickler <br /> TypeScript, React, Node.js
-      </Heading>
-      <div style={{ display: 'flex' }}>
-        <div style={{ marginRight: '10px' }}>
-          <Button invert>{i18n.t('general.contactCta')}</Button>
-        </div>
-        <div>
-          <Button invert>{i18n.t('general.projectsCta')}</Button>
-        </div>
-      </div>
-    </HeroTeaser>
+    <HeroTeaser />
+
+    <CategoryHeader id="cat-projects">
+      {i18next.t('navigation.projects')}
+    </CategoryHeader>
+    <Projects />
+
+    <CategoryHeader id="cat-cv">{i18next.t('navigation.cv')}</CategoryHeader>
+    <CategoryHeader id="cat-contact">
+      {i18next.t('navigation.contact')}
+    </CategoryHeader>
+    <CategoryHeader id="cat-imprint">
+      {i18next.t('navigation.imprint')}
+    </CategoryHeader>
   </AppContainer>
 );
 

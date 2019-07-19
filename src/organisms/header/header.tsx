@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from '@emotion/styled-base';
 import { Logo } from '../../atoms/logo/logo';
-import { Navigation } from '../../molecules/navigation/navigation';
+import { Navigation } from '../navigation/navigation';
 import { FullWidthContainer } from '../../atoms/fullWidthContainer/fullWidthContainer';
 
 export const Header: React.SFC = () => (

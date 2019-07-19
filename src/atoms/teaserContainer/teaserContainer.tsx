@@ -3,19 +3,19 @@ import styled from '@emotion/styled';
 import { FullWidthContainer } from '../fullWidthContainer/fullWidthContainer';
 import { CSSProperties } from '@emotion/serialize';
 
-interface HeroTeaserProps {
+interface TeaserContainerProps {
   style?: React.CSSProperties;
   emotionStyles?: CSSProperties;
 }
 
-export const HeroTeaser: React.SFC<HeroTeaserProps> = props => (
+export const TeaserContainer: React.SFC<TeaserContainerProps> = props => (
   <FullWidthContainer>
-    <HeroTeaserContainer {...props} />
+    <TeaserContainerContainer {...props} />
   </FullWidthContainer>
 );
 
-const HeroTeaserContainer = styled('div')(
-  ({ emotionStyles }: HeroTeaserProps) => ({
+const TeaserContainerContainer = styled('div')(
+  ({ emotionStyles }: TeaserContainerProps) => ({
     backgroundColor: 'papayawhip',
     padding: '75px 40px',
     ...emotionStyles
