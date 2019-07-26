@@ -12,6 +12,6 @@ export const Paragraph: React.SFC<ParagraphProps> = props => (
 const StyledParagraph = styled('p')(({ emotionStyles }: ParagraphProps) => ({
   fontFamily: Fonts.fontFamily,
   fontSize: Fonts.defaultFontSize,
-  lineHeight: '17px',
+  lineHeight: '20px',
   ...emotionStyles
 }));

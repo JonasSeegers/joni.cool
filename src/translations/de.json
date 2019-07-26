@@ -7,7 +7,8 @@
   },
   "general": {
     "contactCta": "Kontakt aufnehmen",
-    "projectsCta": "Projekte ansehen"
+    "projectsCta": "Projekte ansehen",
+    "noSvg": "Leider kann auf deinem Gerät keine Vektorgrafik angezeigt werden"
   },
   "heroTeaser": {
     "heading-1": "Freiberuflicher Full Stack Entwickler",
@@ -15,5 +16,18 @@
   },
   "projects": {
     "visitProject": "Projekt besuchen"
+  },
+  "cv": {
+    "text": "Ich habe von 2014 bis 2018 das Studium der angewandten Informatik an der HAW Hamburg abgeschlossen. Während des Studiums habe ich bereits mehrere Jahre Berufserfahrung sammeln können. Im Anschluss war ich etwas mehr als ein weiteres Jahr fest angestellt. Nun habe ich mich dazu entschlossen als freiberuflicher Entwickler zu arbeiten. Vor meiner Laufbahn als Entwickler habe ich mehrere Jahre als Grafikdesigner gearbeitet. Ich habe mich zwar neu orientiert, aber die Leidenschaft und ein gutes Auge für User Interfaces und User Experience sind geblieben. Klicke auf den Button unter diesem Text um meinen CV als pdf herunterzuladen.",
+    "downloadCta": "Lebenslauf runterladen (.pdf)"
+  },
+  "contact": {
+    "headline": "Schreib einfach eine Mail an"
+  },
+  "imprint": {},
+  "footer": {
+    "backToTop": "Zurück nach oben",
+    "mail1": "Jetzt eine Mail an",
+    "mail2": "schreiben!"
   }
 }

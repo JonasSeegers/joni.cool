@@ -15,5 +15,9 @@ const StyledHeading = styled('h1')(({ emotionStyles }: HeadingProps) => ({
   fontWeight: Fonts.fontWeightBold,
   marginBottom: '40px',
   lineHeight: '50px',
+  '@media (max-width: 500px)': {
+    fontSize: Fonts.headingFontSizeMobile,
+    lineHeight: '36px'
+  },
   ...emotionStyles
 }));
