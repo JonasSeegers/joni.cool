@@ -27,7 +27,6 @@ export const Header: React.SFC = () => {
                 }
               }}
             />
-            {/* <Logo height={40} /> */}
           </LogoContainer>
           <NavigationContainer>
             <Breakpoint minWidth={Breakpoints.tablet + 1}>
@@ -86,8 +85,5 @@ const HeaderContainer = styled('header')({
   height: '130px',
   [`@media (max-width: ${Breakpoints.tablet}px)`]: {
     height: '60px'
-  },
-  '@media (max-width: 400px)': {
-    padding: '0px 30px'
   }
 });

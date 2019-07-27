@@ -5,8 +5,6 @@ import { Paragraph } from '../../atoms/paragraph/paragraph';
 import i18n from '../../utility/i18n';
 import { Button } from '../../atoms/button/button';
 import { Project, ProjectService } from '../../services/projectService';
-import { ProjectTile } from '../../molecules/projectTile/projectTile';
-import { HorizontalLine } from '../../atoms/horizontalLine/horizontalLine';
 import { Breakpoint } from '../../utility/responsive';
 import { Breakpoints } from '../../constants/style';
 import { ProjectsUtil } from './projectsUtil';
@@ -39,7 +37,7 @@ export class Projects extends React.PureComponent<{}, ProjectsState> {
         {/* intro section */}
         <FullWidthContainer>
           <ParagraphContainer>
-            <Paragraph>{i18n.t('projects.introtext')}</Paragraph>
+            <Paragraph>{i18n.t('projects.introText')}</Paragraph>
           </ParagraphContainer>
           <CtaContainer>
             <Button>{i18n.t('general.contactCta')}</Button>

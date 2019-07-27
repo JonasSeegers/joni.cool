@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from '@emotion/styled';
-import { Fonts } from '../../constants/style';
+import { Fonts, Breakpoints } from '../../constants/style';
 import { Styleable } from '../../utility/types';
 
 interface HeadingProps extends Styleable {}
@@ -15,7 +15,7 @@ const StyledHeading = styled('h1')(({ emotionStyles }: HeadingProps) => ({
   fontWeight: Fonts.fontWeightBold,
   marginBottom: '40px',
   lineHeight: '50px',
-  '@media (max-width: 500px)': {
+  [`@media (max-width: ${Breakpoints.mobile}px)`]: {
     fontSize: Fonts.headingFontSizeMobile,
     lineHeight: '36px'
   },

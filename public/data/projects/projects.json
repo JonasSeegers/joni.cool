@@ -1,46 +1,37 @@
 [
   {
-    "title": "About You 1",
-    "logoFilename": "ay-logo.png",
-    "description": "lol lol about you lol jedes teil dein style",
-    "keywords": ["Typescript", "Lol", "Mobile App", "Lmao"],
+    "title": "joni.cool",
+    "logoFilename": "joni-logo.png",
+    "description": "Die Webseite die du gerade siehst. Den Code kannst du dir öffentlich auf GitHub ansehen.",
+    "keywords": ["Typescript", "React", "Responsive"],
     "ctas": [
-      { "i18nKey": "projects.visitProject", "url": "http://www.aboutyou.de" }
+      {
+        "i18nKey": "projects.visitGithub",
+        "url": "https://github.com/JonasSeegers/joni.cool"
+      }
     ]
   },
   {
-    "title": "About You 2",
-    "logoFilename": "ay-logo.png",
-    "description": "lol lol about you lol jedes teil dein style",
-    "keywords": ["Typescript", "Lol", "Mobile App", "Lmao"],
+    "title": "Taxdoo",
+    "logoFilename": "taxdoo-logo.png",
+    "description": "Bei Taxdoo habe ich vollzeit in einer Festanstellung gearbeitet. Taxdoo automatisiert Umsatzsteuerprozesse für Online-Händler. In der Zeit meiner Anstellung habe ich ein neues System entwickelt, das die Kommunikation zwischen Steuerberatern und Mandanten automatisiert.",
+    "keywords": ["Typescript", "React", "Node.js", "AWS"],
     "ctas": [
-      { "i18nKey": "projects.visitProject", "url": "http://www.aboutyou.de" },
-      { "i18nKey": "projects.visitProject", "url": "http://www.aboutyou.de" }
+      { "i18nKey": "projects.visitProject", "url": "https://www.taxdoo.com/" },
+      { "i18nKey": "projects.coe", "url": "" }
     ]
   },
   {
-    "title": "About You 3",
-    "logoFilename": "ay-logo.png",
-    "description": "lol lol about you lol jedes teil dein style",
-    "keywords": ["Typescript", "Lol", "Mobile App", "Lmao"],
-    "ctas": [
-      { "i18nKey": "projects.visitProject", "url": "http://www.aboutyou.de" }
-    ]
+    "title": "Whocares",
+    "logoFilename": "whocares-logo.png",
+    "description": "Das Startup whocares hat eine B2C App entwickelt, die es den Nutzern ermöglicht hat sich gegenseitig Umfragen zu schicken. Das Projekt ist mittlerweile leider offline.",
+    "keywords": ["React Native", "Google Firebase", "iOS", "Android"]
   },
   {
-    "title": "About You 4",
+    "title": "About You",
     "logoFilename": "ay-logo.png",
-    "description": "lol lol about you lol jedes teil dein style",
-    "keywords": ["Typescript", "Lol", "Mobile App", "Lmao"],
-    "ctas": [
-      { "i18nKey": "projects.visitProject", "url": "http://www.aboutyou.de" }
-    ]
-  },
-  {
-    "title": "About You 5",
-    "logoFilename": "ay-logo.png",
-    "description": "lol lol about you lol jedes teil dein style",
-    "keywords": ["Typescript", "Lol", "Mobile App", "Lmao"],
+    "description": "Bei About You habe ich im Mobile Team als Werkstudent QA gearbeitet. Ich habe automatische Tests für die mobile Webseite und mobile App geschrieben und automatisiert ausgeführt.",
+    "keywords": ["Angular", "Protractor", "Ionic", "Angular 1"],
     "ctas": [
       { "i18nKey": "projects.visitProject", "url": "http://www.aboutyou.de" }
     ]

@@ -100,7 +100,10 @@ const Row = styled('div')({
 });
 
 const projectTileStyles = {
-  flex: 1
+  flex: 1,
+  ':not(:last-child)': {
+    marginRight: '40px'
+  }
 };
 
 const EmptyTile = styled('div')({

@@ -25,8 +25,8 @@ const TeaserContainerContainer = styled('div')(
   ({ emotionStyles }: TeaserContainerProps) => ({
     backgroundColor: 'papayawhip',
     padding: '75px 40px',
-    '@media (max-width: 400px)': {
-      padding: '40px 30px'
+    [`@media (max-width: ${Breakpoints.mobile}px)`]: {
+      padding: '40px'
     },
     ...emotionStyles
   })

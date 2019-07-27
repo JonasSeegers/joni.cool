@@ -24,13 +24,7 @@ const CategoryHeaderComponent = styled('div')({
   flexDirection: 'column',
   alignItems: 'center',
   marginTop: '30px',
-  marginBottom: '20px',
-  '@media (max-width: 420px)': {
-    margin: '20px 0px',
-    '& h2': {
-      paddingLeft: '30px'
-    }
-  }
+  marginBottom: '20px'
 });
 
 const containerStyles = {

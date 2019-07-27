@@ -3,7 +3,7 @@ import { TeaserContainer } from '../../atoms/teaserContainer/teaserContainer';
 import { Heading } from '../../atoms/heading/heading';
 import i18n from '../../utility/i18n';
 import { Link } from '../../atoms/link/Link';
-import { Colors, Fonts } from '../../constants/style';
+import { Colors, Fonts, Breakpoints } from '../../constants/style';
 
 export const ContactTeaser: React.SFC = () => (
   <TeaserContainer
@@ -13,9 +13,13 @@ export const ContactTeaser: React.SFC = () => (
       {i18n.t('contact.headline')} <br />
       <Link
         to="mailto:moin@joni.cool"
-        style={{
+        emotionStyles={{
           color: Colors.fontColorBright,
-          fontSize: Fonts.headingFontSize
+          fontSize: Fonts.headingFontSize,
+          [`@media (max-width: ${Breakpoints.mobile}px)`]: {
+            fontSize: Fonts.headingFontSizeMobile,
+            lineHeight: '36px'
+          }
         }}
       >
         moin@joni.cool
