@@ -9,6 +9,8 @@ import { BurgerMenuItem } from '../../atoms/burgerMenuItem/burgerMenuItem';
 import i18n from '../../utility/i18n';
 import { Link } from '../../atoms/link/Link';
 import { Breakpoints } from '../../constants/style';
+import { ScrollingService } from '../../services/scrollingService';
+import { CategoryIds } from '../../constants/ids';
 
 export const Header: React.SFC = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -45,16 +47,44 @@ export const Header: React.SFC = () => {
       {isMenuOpen && (
         <MobileNavigationContainer>
           <BurgerMenuItem>
-            <Link>{i18n.t('navigation.projects')}</Link>
+            <Link
+              onClick={() => {
+                setMenuOpen(false);
+                ScrollingService.scrollIntoView(CategoryIds.projects);
+              }}
+            >
+              {i18n.t('navigation.projects')}
+            </Link>
           </BurgerMenuItem>
           <BurgerMenuItem>
-            <Link>{i18n.t('navigation.cv')}</Link>
+            <Link
+              onClick={() => {
+                setMenuOpen(false);
+                ScrollingService.scrollIntoView(CategoryIds.cv);
+              }}
+            >
+              {i18n.t('navigation.cv')}
+            </Link>
           </BurgerMenuItem>
           <BurgerMenuItem>
-            <Link>{i18n.t('navigation.contact')}</Link>
+            <Link
+              onClick={() => {
+                setMenuOpen(false);
+                ScrollingService.scrollIntoView(CategoryIds.contact);
+              }}
+            >
+              {i18n.t('navigation.contact')}
+            </Link>
           </BurgerMenuItem>
           <BurgerMenuItem>
-            <Link>{i18n.t('navigation.imprint')}</Link>
+            <Link
+              onClick={() => {
+                setMenuOpen(false);
+                ScrollingService.scrollIntoView(CategoryIds.imprint);
+              }}
+            >
+              {i18n.t('navigation.imprint')}
+            </Link>
           </BurgerMenuItem>
         </MobileNavigationContainer>
       )}

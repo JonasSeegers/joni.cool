@@ -9,6 +9,7 @@ import { Cv } from './organisms/cv/cv';
 import { Contact } from './organisms/contact/contact';
 import { Footer } from './organisms/footer/footer';
 import { Imprint } from './organisms/imprint/imprint';
+import { Global } from '@emotion/core';
 
 export const App: React.SFC = () => (
   <AppContainer>
@@ -34,6 +35,8 @@ export const App: React.SFC = () => (
     <Imprint />
 
     <Footer />
+
+    <Global styles={{ body: { overflowX: 'hidden' } }} />
   </AppContainer>
 );
 

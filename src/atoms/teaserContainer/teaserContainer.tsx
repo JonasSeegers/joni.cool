@@ -23,7 +23,6 @@ const fullWidthContainertStyles: CSSProperties = {
 
 const TeaserContainerContainer = styled('div')(
   ({ emotionStyles }: TeaserContainerProps) => ({
-    backgroundColor: 'papayawhip',
     padding: '75px 40px',
     [`@media (max-width: ${Breakpoints.mobile}px)`]: {
       padding: '40px'

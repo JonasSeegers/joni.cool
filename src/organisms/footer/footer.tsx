@@ -61,11 +61,13 @@ export const Footer: React.SFC = () => (
       </LeftContainer>
 
       <RightContainer>
-        <InlineText>
-          {`${i18n.t('footer.mail1')} `}
-          <Link to="mailto:moin@joni.cool">moin@joni.cool</Link>
-          {` ${i18n.t('footer.mail2')}`}
-        </InlineText>
+        <Breakpoint minWidth={Breakpoints.tablet}>
+          <InlineText>
+            {`${i18n.t('footer.mail1')} `}
+            <Link to="mailto:moin@joni.cool">moin@joni.cool</Link>
+            {` ${i18n.t('footer.mail2')}`}
+          </InlineText>
+        </Breakpoint>
       </RightContainer>
     </FullWidthContainer>
   </FooterContainer>
