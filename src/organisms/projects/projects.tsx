@@ -8,6 +8,8 @@ import { Project, ProjectService } from '../../services/projectService';
 import { Breakpoint } from '../../utility/responsive';
 import { Breakpoints } from '../../constants/style';
 import { ProjectsUtil } from './projectsUtil';
+import { ScrollingService } from '../../services/scrollingService';
+import { CategoryIds } from '../../constants/ids';
 
 interface ProjectsState {
   isLoading: boolean; // if this is true, show a loading state instead of the projects
@@ -40,7 +42,13 @@ export class Projects extends React.PureComponent<{}, ProjectsState> {
             <Paragraph>{i18n.t('projects.introText')}</Paragraph>
           </ParagraphContainer>
           <CtaContainer>
-            <Button>{i18n.t('general.contactCta')}</Button>
+            <Button
+              onClick={() =>
+                ScrollingService.scrollIntoView(CategoryIds.contact)
+              }
+            >
+              {i18n.t('general.contactCta')}
+            </Button>
           </CtaContainer>
         </FullWidthContainer>
 

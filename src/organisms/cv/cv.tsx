@@ -9,7 +9,11 @@ export const Cv: React.SFC = () => (
   <FullWidthContainer>
     <Paragraph>{i18n.t('cv.text')}</Paragraph>
     <ButtonContainer>
-      <Button>{i18n.t('cv.downloadCta')}</Button>
+      <Button
+        onClick={() => window.open('data/cv_jonas_seegers.pdf', '_blank')}
+      >
+        {i18n.t('cv.downloadCta')}
+      </Button>
     </ButtonContainer>
   </FullWidthContainer>
 );

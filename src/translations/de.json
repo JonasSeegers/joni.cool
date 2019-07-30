@@ -18,16 +18,25 @@
     "visitProject": "Projekt besuchen",
     "visitGithub": "Code auf GitHub ansehen",
     "coe": "Arbeitszeugnis einsehen",
-    "introText": "Im Folgenden kannst du dir meine bisherigen Projekte ansehen. Einige der Projekte sind in Festanstellung entstanden."
+    "introText": "Im Folgenden kannst du dir meine bisherigen Projekte und Stationen ansehen."
   },
   "cv": {
     "text": "Ich habe von 2014 bis 2018 das Studium der angewandten Informatik an der HAW Hamburg abgeschlossen. Während des Studiums habe ich bereits mehrere Jahre Berufserfahrung sammeln können. Im Anschluss war ich etwas mehr als ein weiteres Jahr fest angestellt. Nun habe ich mich dazu entschlossen als freiberuflicher Entwickler zu arbeiten. Vor meiner Laufbahn als Entwickler habe ich mehrere Jahre als Grafikdesigner gearbeitet. Ich habe mich zwar neu orientiert, aber die Leidenschaft und ein gutes Auge für User Interfaces und User Experience sind geblieben. Klicke auf den Button unter diesem Text um meinen CV als pdf herunterzuladen.",
     "downloadCta": "Lebenslauf runterladen (.pdf)"
   },
   "contact": {
-    "headline": "Schreib einfach eine Mail an"
+    "headline": "Schreib einfach eine Mail an",
+    "text": "Ich freue mich auf Projektanfragen, fachlichen Austausch und Anregungen."
   },
-  "imprint": {},
+  "imprint": {
+    "developer": "Softwareentwickler",
+    "email": "E-Mail",
+    "credits": {
+      "photographs": "Fotos",
+      "heroTeaser": "Hero Teaser",
+      "mailTeaser": "Kontakt Teaser"
+    }
+  },
   "footer": {
     "backToTop": "Zurück nach oben",
     "mail1": "Jetzt eine Mail an",

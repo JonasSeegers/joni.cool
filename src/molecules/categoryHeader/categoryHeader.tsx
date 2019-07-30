@@ -3,7 +3,6 @@ import styled from '@emotion/styled';
 import { Subheading } from '../../atoms/subheading/subheading';
 import { HorizontalLine } from '../../atoms/horizontalLine/horizontalLine';
 import { FullWidthContainer } from '../../atoms/fullWidthContainer/fullWidthContainer';
-import { Fonts } from '../../constants/style';
 
 interface CategoryHeaderProps {
   id?: string;

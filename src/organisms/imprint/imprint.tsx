@@ -17,7 +17,6 @@ export const Imprint: React.SFC = () => (
     <br />
 
     <Paragraph>
-      {i18n.t('imprint.phoneNumber')}: 0172/3684278 <br />{' '}
       {i18n.t('imprint.email')}:{' '}
       <Link to="mailto:moin@joni.cool">moin@joni.cool</Link>
     </Paragraph>

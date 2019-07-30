@@ -52,7 +52,9 @@ const renderCta = (
 ): React.ReactNode => {
   return (
     <ButtonContainer key={key}>
-      <Button>{i18n.t(i18nKey)}</Button>
+      <Button onClick={() => window.open(url, '_blank')}>
+        {i18n.t(i18nKey)}
+      </Button>
     </ButtonContainer>
   );
 };

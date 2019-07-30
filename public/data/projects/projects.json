@@ -17,8 +17,19 @@
     "description": "Bei Taxdoo habe ich vollzeit in einer Festanstellung gearbeitet. Taxdoo automatisiert Umsatzsteuerprozesse für Online-Händler. In der Zeit meiner Anstellung habe ich ein neues System entwickelt, das die Kommunikation zwischen Steuerberatern und Mandanten automatisiert.",
     "keywords": ["Typescript", "React", "Node.js", "AWS"],
     "ctas": [
-      { "i18nKey": "projects.visitProject", "url": "https://www.taxdoo.com/" },
-      { "i18nKey": "projects.coe", "url": "" }
+      { "i18nKey": "projects.visitProject", "url": "https://www.taxdoo.com/" }
+    ]
+  },
+  {
+    "title": "SinnerSchrader",
+    "logoFilename": "s2-logo.png",
+    "description": "Bei SinnerSchrader habe ich zum Ende meines Studiums als Teil des Product Engineering Teams gearbeitet.",
+    "keywords": ["TypeScript", "React", "AWS"],
+    "ctas": [
+      {
+        "i18nKey": "projects.visitProject",
+        "url": "https://sinnerschrader.com/"
+      }
     ]
   },
   {

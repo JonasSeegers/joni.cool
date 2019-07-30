@@ -5,6 +5,8 @@ import { Button } from '../../atoms/button/button';
 import i18n from '../../utility/i18n';
 import styled from '@emotion/styled';
 import { CSSProperties } from '@emotion/serialize';
+import { ScrollingService } from '../../services/scrollingService';
+import { CategoryIds } from '../../constants/ids';
 
 export const HeroTeaser: React.SFC = () => (
   <TeaserContainer emotionStyles={teaserContainerStyles}>
@@ -14,10 +16,20 @@ export const HeroTeaser: React.SFC = () => (
 
     <ButtonContainer>
       <InnerButtonContainer>
-        <Button invert>{i18n.t('general.contactCta')}</Button>
+        <Button
+          invert
+          onClick={() => ScrollingService.scrollIntoView(CategoryIds.contact)}
+        >
+          {i18n.t('general.contactCta')}
+        </Button>
       </InnerButtonContainer>
       <InnerButtonContainer>
-        <Button invert>{i18n.t('general.projectsCta')}</Button>
+        <Button
+          invert
+          onClick={() => ScrollingService.scrollIntoView(CategoryIds.projects)}
+        >
+          {i18n.t('general.projectsCta')}
+        </Button>
       </InnerButtonContainer>
     </ButtonContainer>
   </TeaserContainer>
