@@ -14,7 +14,7 @@
   {
     "title": "Taxdoo",
     "logoFilename": "taxdoo-logo.png",
-    "description": "Bei Taxdoo habe ich vollzeit in einer Festanstellung gearbeitet. Taxdoo automatisiert Umsatzsteuerprozesse für Online-Händler. In der Zeit meiner Anstellung habe ich ein neues System entwickelt, das die Kommunikation zwischen Steuerberatern und Mandanten automatisiert.",
+    "description": "Bei Taxdoo habe ich Vollzeit in einer Festanstellung gearbeitet. Taxdoo automatisiert Umsatzsteuerprozesse für Online-Händler. In der Zeit meiner Anstellung habe ich ein neues System entwickelt, das die Kommunikation zwischen Steuerberatern und Mandanten automatisiert.",
     "keywords": ["TypeScript", "React", "Node.js", "AWS"],
     "ctas": [
       { "i18nKey": "projects.visitProject", "url": "https://www.taxdoo.com/" }

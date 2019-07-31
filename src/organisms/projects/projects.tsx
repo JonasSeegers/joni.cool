@@ -3,13 +3,10 @@ import styled from '@emotion/styled';
 import { FullWidthContainer } from '../../atoms/fullWidthContainer/fullWidthContainer';
 import { Paragraph } from '../../atoms/paragraph/paragraph';
 import i18n from '../../utility/i18n';
-import { Button } from '../../atoms/button/button';
 import { Project, ProjectService } from '../../services/projectService';
 import { Breakpoint } from '../../utility/responsive';
 import { Breakpoints } from '../../constants/style';
 import { ProjectsUtil } from './projectsUtil';
-import { ScrollingService } from '../../services/scrollingService';
-import { CategoryIds } from '../../constants/ids';
 
 interface ProjectsState {
   isLoading: boolean; // if this is true, show a loading state instead of the projects
@@ -41,15 +38,6 @@ export class Projects extends React.PureComponent<{}, ProjectsState> {
           <ParagraphContainer>
             <Paragraph>{i18n.t('projects.introText')}</Paragraph>
           </ParagraphContainer>
-          <CtaContainer>
-            <Button
-              onClick={() =>
-                ScrollingService.scrollIntoView(CategoryIds.contact)
-              }
-            >
-              {i18n.t('general.contactCta')}
-            </Button>
-          </CtaContainer>
         </FullWidthContainer>
 
         {/* list of projects */}
@@ -91,7 +79,10 @@ const ProjectsContainer = styled('div')({
 });
 
 const ParagraphContainer = styled('div')({
-  marginBottom: '20px'
+  marginBottom: '40px',
+  [`@media (max-width: ${Breakpoints.mobile}px)`]: {
+    marginBottom: '20px'
+  }
 });
 
 const CtaContainer = styled('div')({
