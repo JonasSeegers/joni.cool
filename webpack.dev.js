@@ -7,6 +7,7 @@ const config = {
   devtool: 'source-map',
   devServer: {
     contentBase: path.join(__dirname, './public'),
+    publicPath: '/',
     port: 3000
   }
 };

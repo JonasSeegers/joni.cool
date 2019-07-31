@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest",
     "build": "webpack --config webpack.prod.js",
-    "dev": "webpack-dev-server  --open --config webpack.dev.js"
+    "dev": "webpack-dev-server  --open --config webpack.dev.js",
+    "deploy": "npm run build && aws s3 cp ./dist s3://joni.cool --recursive"
   },
   "repository": {
     "type": "git",

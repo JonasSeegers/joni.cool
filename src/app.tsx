@@ -15,27 +15,21 @@ export const App: React.SFC = () => (
   <AppContainer>
     <Header />
     <HeroTeaser />
-
     <CategoryHeader id="cat-projects">
       {i18next.t('navigation.projects')}
     </CategoryHeader>
     <Projects />
-
     <CategoryHeader id="cat-cv">{i18next.t('navigation.cv')}</CategoryHeader>
     <Cv />
-
     <CategoryHeader id="cat-contact">
       {i18next.t('navigation.contact')}
     </CategoryHeader>
     <Contact />
-
     <CategoryHeader id="cat-imprint">
       {i18next.t('navigation.imprint')}
     </CategoryHeader>
     <Imprint />
-
     <Footer />
-
     <Global styles={{ body: { overflowX: 'hidden' } }} />
   </AppContainer>
 );
