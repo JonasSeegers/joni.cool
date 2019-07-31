@@ -2,8 +2,8 @@
   {
     "title": "joni.cool",
     "logoFilename": "joni-logo.png",
-    "description": "Die Webseite die du gerade siehst. Den Code kannst du dir öffentlich auf GitHub ansehen.",
-    "keywords": ["Typescript", "React", "Responsive"],
+    "description": "Die Webseite, die du gerade siehst. Den Code kannst du dir öffentlich auf GitHub ansehen.",
+    "keywords": ["TypeScript", "React", "Responsive"],
     "ctas": [
       {
         "i18nKey": "projects.visitGithub",
@@ -15,7 +15,7 @@
     "title": "Taxdoo",
     "logoFilename": "taxdoo-logo.png",
     "description": "Bei Taxdoo habe ich vollzeit in einer Festanstellung gearbeitet. Taxdoo automatisiert Umsatzsteuerprozesse für Online-Händler. In der Zeit meiner Anstellung habe ich ein neues System entwickelt, das die Kommunikation zwischen Steuerberatern und Mandanten automatisiert.",
-    "keywords": ["Typescript", "React", "Node.js", "AWS"],
+    "keywords": ["TypeScript", "React", "Node.js", "AWS"],
     "ctas": [
       { "i18nKey": "projects.visitProject", "url": "https://www.taxdoo.com/" }
     ]
@@ -23,7 +23,7 @@
   {
     "title": "SinnerSchrader",
     "logoFilename": "s2-logo.png",
-    "description": "Bei SinnerSchrader habe ich zum Ende meines Studiums als Teil des Product Engineering Teams gearbeitet.",
+    "description": "Bei SinnerSchrader habe ich zum Ende meines Studiums als Werkstundent im Product Engineering Team gearbeitet.",
     "keywords": ["TypeScript", "React", "AWS"],
     "ctas": [
       {
@@ -35,13 +35,13 @@
   {
     "title": "Whocares",
     "logoFilename": "whocares-logo.png",
-    "description": "Das Startup whocares hat eine B2C App entwickelt, die es den Nutzern ermöglicht hat sich gegenseitig Umfragen zu schicken. Das Projekt ist mittlerweile leider offline.",
+    "description": "Das Startup whocares hat eine B2C App entwickelt, die es den Nutzern ermöglicht hat sich gegenseitig Umfragen zu schicken. Vergleichbar mit den Funktionen, die man mittlerweile in Instagram Storys hat. Das Projekt ist mittlerweile leider offline.",
     "keywords": ["React Native", "Google Firebase", "iOS", "Android"]
   },
   {
     "title": "About You",
     "logoFilename": "ay-logo.png",
-    "description": "Bei About You habe ich im Mobile Team als Werkstudent QA gearbeitet. Ich habe automatische Tests für die mobile Webseite und mobile App geschrieben und automatisiert ausgeführt.",
+    "description": "Bei About You habe ich im Mobile Team als Werkstudent für die Qualitätssicherung gearbeitet. Ich habe automatisierte Tests für die mobile Webseite und App geschrieben und ausgeführt.",
     "keywords": ["Angular", "Protractor", "Ionic", "Angular 1"],
     "ctas": [
       { "i18nKey": "projects.visitProject", "url": "http://www.aboutyou.de" }
