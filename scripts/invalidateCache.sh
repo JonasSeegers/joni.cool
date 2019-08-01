@@ -1,0 +1,1 @@
+aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_JONI_COOL --paths "/*"

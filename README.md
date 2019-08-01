@@ -40,6 +40,6 @@ Run `yarn build`/`npm run build` to create a build in the `dist` directory.
 
 ## Deploy
 
-To deploy the site, run `yarn deploy`/`npm run deploy`.
+The deployment script is defined in `scripts/deploy.sh`. Depending on the environment variable `BUCKET`, it will deploy to staging or live. For convinience, there is an npm script for both options, so it's sufficient to run either `yarn deployStaging`/`npm run deployStaging` or `yarn deployLive`/`npm run deployLive`
 
 > **Note:** Since the script targets an S3 bucket you'll probably don't have any writing access to, this won't work out of the box. If you really want to deploy the site, you'd have create your own bucket and change the script in the `package.json` accordingly.

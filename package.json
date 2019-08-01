@@ -7,7 +7,8 @@
     "test": "jest",
     "build": "webpack --config webpack.prod.js",
     "dev": "webpack-dev-server  --open --config webpack.dev.js",
-    "deploy": "npm run build && aws s3 cp ./dist s3://joni.cool --recursive"
+    "deployLive": "cross-env BUCKET=joni.cool ./scripts/deploy.sh && ./scripts/invalidateCache.sh",
+    "deployStaging": "cross-env BUCKET=joni.cool.stage ./scripts/deploy.sh"
   },
   "repository": {
     "type": "git",
@@ -34,6 +35,7 @@
     "cache-loader": "^4.1.0",
     "clean-webpack-plugin": "^3.0.0",
     "copy-webpack-plugin": "^5.0.4",
+    "cross-env": "^5.2.0",
     "html-webpack-plugin": "^3.2.0",
     "ts-loader": "^5.3.3",
     "typescript": "^3.4.4",

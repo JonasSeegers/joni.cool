@@ -8,7 +8,8 @@ module.exports = merge(common, {
     new CopyPlugin([
       { from: 'public/assets', to: 'assets' },
       { from: 'public/data', to: 'data' },
-      { from: 'public/reset.css', to: 'reset.css' }
+      { from: 'public/reset.css', to: 'reset.css' },
+      { from: 'public/favicon.ico', to: 'favicon.ico' }
     ])
   ]
 });
