@@ -1,5 +1,17 @@
 [
   {
+    "title": "Protofy",
+    "logoFilename": "protofy-logo.png",
+    "description": "Bei Protofy habe ich ein Team beim entwickeln einer App unterstützt.",
+    "keywords": ["TypeScript", "React Native"],
+    "ctas": [
+      {
+        "i18nKey": "projects.visitProject",
+        "url": "https://protofy.com/"
+      }
+    ]
+  },
+  {
     "title": "joni.cool",
     "logoFilename": "joni-logo.png",
     "description": "Die Webseite, die du gerade siehst. Den Code kannst du dir öffentlich auf GitHub ansehen.",
