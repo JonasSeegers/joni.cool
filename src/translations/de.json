@@ -17,6 +17,7 @@
   "projects": {
     "visitProject": "Projekt besuchen",
     "visitGithub": "Code auf GitHub ansehen",
+    "visitMap": "Kartenmodul ansehen",
     "coe": "Arbeitszeugnis einsehen",
     "introText": "Im Folgenden kannst du dir meine bisherigen Projekte und Stationen ansehen."
   },

@@ -1,9 +1,25 @@
 [
   {
+    "title": "Pay now eat later",
+    "logoFilename": "pnel-logo.png",
+    "description": "In der Coronazeit haben viele Gastronomen Probleme ihren Betrieb aufrechtzuerhalten. Über die Webseite von pay now eat later können diese Gastronomen Gutscheine verkaufen, deren Erlös sofort und zu 100% an sie ausgezahlt wird. Ich habe dem bestehenden Entwicklerteam meine Hilfe angeboten und für die Webseite ein Kartenmodul entwickelt.",
+    "keywords": ["TypeScript"],
+    "ctas": [
+      {
+        "i18nKey": "projects.visitProject",
+        "url": "https://paynoweatlater.de/"
+      },
+      {
+        "i18nKey": "projects.visitMap",
+        "url": "https://www.paynoweatlater.de/in/hamburg"
+      }
+    ]
+  },
+  {
     "title": "Finanzcheck",
+    "description": "Um die Conversion der Landingpages zu steigern, wurde bei Finanzcheck ein Team gegründet. Als Teil dieses Teams habe ich verschiedene Konzepte in Code gegossen und A/B-getestet",
     "logoFilename": "finanzcheck-logo.png",
-    "description": "Bei Finanzcheck habe ich als Teil eines Teams verschiedene Konzepte entwickelt und getestet um die Conversion auf Landingpages zu steigern",
-    "keywords": ["TypeScript", "React", "Next.js"],
+    "keywords": ["TypeScript", "React", "Next.js", "AWS"],
     "ctas": [
       {
         "i18nKey": "projects.visitProject",
