@@ -1,8 +1,20 @@
 [
   {
+    "title": "Finanzcheck",
+    "logoFilename": "finanzcheck-logo.png",
+    "description": "Bei Finanzcheck habe ich als Teil eines Teams verschiedene Konzepte entwickelt und getestet um die Conversion auf Landingpages zu steigern",
+    "keywords": ["TypeScript", "React", "Next.js"],
+    "ctas": [
+      {
+        "i18nKey": "projects.visitProject",
+        "url": "https://finanzcheck.de/"
+      }
+    ]
+  },
+  {
     "title": "Protofy",
     "logoFilename": "protofy-logo.png",
-    "description": "Bei Protofy habe ich ein Team beim entwickeln einer App unterstützt.",
+    "description": "Bei Protofy habe ich ein Team beim entwickeln der DEPOT App unterstützt.",
     "keywords": ["TypeScript", "React Native"],
     "ctas": [
       {
