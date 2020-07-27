@@ -20,15 +20,7 @@ export const Header: React.SFC = () => {
       <FullWidthContainer>
         <HeaderContainer>
           <LogoContainer>
-            <Logo
-              height={81}
-              emotionStyles={{
-                height: '81px',
-                [`@media (max-width: ${Breakpoints.tablet}px)`]: {
-                  height: '40px'
-                }
-              }}
-            />
+            <Logo />
           </LogoContainer>
           <NavigationContainer>
             <Breakpoint minWidth={Breakpoints.tablet + 1}>
@@ -95,25 +87,25 @@ export const Header: React.SFC = () => {
 const MobileNavigationContainer = styled('div')({
   border: `1px solid black`,
   borderWidth: '3px  0px 3px 0px',
-  width: '100vw'
+  width: '100vw',
 });
 
 const LogoContainer = styled('div')({
   display: 'flex',
-  alignItems: 'center'
+  alignItems: 'center',
 });
 
 const NavigationContainer = styled('div')({
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'flex-end',
-  flex: 1
+  flex: 1,
 });
 
 const HeaderContainer = styled('header')({
   display: 'flex',
   height: '130px',
   [`@media (max-width: ${Breakpoints.tablet}px)`]: {
-    height: '60px'
-  }
+    height: '60px',
+  },
 });

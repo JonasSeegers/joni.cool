@@ -1,19 +1,27 @@
 import React from 'react';
 import { Styleable } from '../../utility/types';
 import styled from '@emotion/styled';
-import i18n from '../../utility/i18n';
+import { Breakpoints } from '../../constants/style';
 
 interface LogoProps extends Styleable {
   height?: number;
   width?: number;
 }
 
-export const Logo: React.SFC<LogoProps> = props => (
-  <StyledObject data="assets/logo.svg" type="image/svg+xml" {...props}>
-    {i18n.t('general.noSvg')}
-  </StyledObject>
-);
+export const Logo = styled.div({
+  backgroundImage: `url(assets/logo.svg)`,
+  height: '40px',
+  width: '100px',
+  backgroundSize: 'contain',
+  backgroundRepeat: 'no-repeat',
+  [`@media (min-width: ${Breakpoints.tablet}px)`]: { height: '81px' },
+});
+
+const StyledDiv = styled.div({
+  background: `url(assets/logo.svg)`,
+});
 
 const StyledObject = styled('object')(({ emotionStyles }: Styleable) => ({
-  ...emotionStyles
+  ...emotionStyles,
+  backgroundColor: 'red',
 }));
